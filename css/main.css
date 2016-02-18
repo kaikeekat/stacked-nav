@@ -3,6 +3,7 @@ html {
   font-family: "Dosis", sans-serif;
   font-weight: bold;
   background-color: #efeee9;
+	text-align: center;
 }
 
 *, *::before, *::after {
@@ -14,19 +15,36 @@ h1 {
 }
 
 ul {
+  padding: 0;
 	list-style-type: none;
 }
 
 nav {
+	margin: 0;
+	padding: 0;
   color: #efeee9;
 	background-color: #9a816d;
 }
 
 body {
-	border-width: thin;
-	border-color:
+	border-radius: 0px;
+	border-color: #795437;
+	padding: 0;
+	margin: 0;
 }
 
 a:hover {
 	background-color: #795437;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #efeee9;
+}
+
+li{
+	border: 0px #795437;
+	padding: .5em;
+
 }
