@@ -13,6 +13,10 @@ h1 {
 	color: #4a1900;
 }
 
+li {
+	list-style-type: none;
+}
+
 nav {
   color: #efeee9;
 	background-color: #9a816d;
